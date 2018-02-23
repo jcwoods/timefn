@@ -4,5 +4,6 @@ setup(
     name = 'timefn',
     version = '0.9.0',
     py_modules = ['timefn'],
-    long_description = open('README.rst').read(),
+    setup_requires=['setuptools-markdown'],
+    long_description_markdown_filename = 'README.md'
 )
